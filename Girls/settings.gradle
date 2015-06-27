@@ -1,0 +1,4 @@
+include ':app', ':library',':sample',':circleimageview'
+project(':library').projectDir = new File('android_float_action_button/trunk/library')
+project(':sample').projectDir = new File('android_float_action_button/trunk/sample')
+project(':circleimageview').projectDir = new File('CircleImageView/trunk/circleimageview')
